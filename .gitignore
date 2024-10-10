@@ -1,0 +1,12 @@
+# Ignore wp-config.php (vous pouvez le versionner si vous retirez des infos sensibles)
+wp-config.php
+
+# Ignore plugins et uploads
+wp-content/plugins/*
+wp-content/uploads/*
+
+# Ignore les fichiers temporaires
+.htaccess
+.DS_Store
+.idea/
+node_modules/
